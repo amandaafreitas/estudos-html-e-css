@@ -110,8 +110,35 @@ body {
   margin-top: 10px;
 }
 
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-flow: column wrap;
+  height: 250px;
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 25%;
+}
 .rodapePrincipal-navMap-link {
   font-size: 0.9em;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
 }
 
 .navmap-list-title {
