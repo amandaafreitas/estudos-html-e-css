@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100vw;
 }
 
 .nav-infos {
@@ -194,6 +193,10 @@ input[type="radio"] {
   font-size: 25px;
 }
 
+.produtos-destaque {
+  height: 561px;
+}
+
 .produtos-destaque-titulo {
   text-align: center;
   margin-top: 40px;
@@ -208,4 +211,33 @@ a {
   border-radius: 7px;
   border: 0;
   margin-top: 10px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: rgb(100, 59, 134);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.btn:hover a {
+  color: #fff;
+}
+
+.icone-midias {
+  width: 35px;
+}
+
+.rodape {
+  background-color: #ee6983;
+  height: 180px;
+}
+
+.rodape-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cartoes {
+  text-align: center;
 }
